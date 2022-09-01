@@ -1,22 +1,17 @@
-### Environmental predictors of happiness
+### Environmental predictors of global food supply
 
 ## Introduction
 
-Our natural environment plays a large role in our wellbeing, and therefore happiness. The goal of this project is to explore how specific environmental indicators are related to subjective happiness and which are most important in predicting happiness. 
-
-## Significance
-
-As someone with a background in conservation and interest in the human condition, I find these types of analsyses interesting and foundational for more focused research. While this is more of an exploratory analyses to pinpoint environmental indicators that are linked to happiness, there is a lot to gain in understanding how well-being reflects certain levels of environmental quality. 
+Understanding worldwide crop yield is central to addressing food security challenges and reducing the impacts of climate change. Thus, the goals of this project are to (i) create a model of crop yield based on relevant predictor variables and (ii) determine which features are the most important in predicting crop yield.
 
 ## Data
 
-* [World Happiness Report](https://www.kaggle.com/datasets/mathurinache/world-happiness-report)
+* [Crop Yield Data](https://www.kaggle.com/datasets/patelris/crop-yield-prediction-dataset)
    
-   Contains the Happiness Score for about 150 countries along with the factors used to explain the score
+This dataset has over 28,000 records for the following variables: crop yield (hg/ha), country, year, rainfall (mm/year), average temperature, pesticide usage (tonnes). It includes the topmost consumed crops worldwide: cassava, maize, potatoes, rice (paddy), sorghum, soybeans, sweet potatoes, wheat, yams, and plantains and others. There are records for 101 different countries for years 1990 through 2013.
 
-* [Global Environmental Indicators](https://www.kaggle.com/datasets/ruchi798/global-environmental-indicators)
-
-   Country-level dataset that covers a wide range of environmental indicators such as: Air and Climate, Biodiversity, Energy and Minerals, Forest, Governance, Inland Water, Resources, Land and Agriculture, Marine and Coastal Areas, Natural Disasters, Waste
+* [CO2 emmissions](https://www.kaggle.com/datasets/yoannboyere/co2-ghg-emissionsdata)
+    
 
 
 ## Scope
@@ -25,32 +20,28 @@ As someone with a background in conservation and interest in the human condition
 
    * Align datasets by country and timeframe
    * Check for missing values
-   * Check for normality in variables (normal distribution?)
    * Check for highly correlated variables
-   * Check for linearity
    * Get basic stats
 
    
-2. Multiple regression:
+2. Model comparison:
 
-   * The value of happiness score at a certain value of predictor variables (e.g. the expected value of happiness at certain levels of resources).
+   * Detemine the best machine learning algorithm for predicting crop yield
    
 3. Random forest:
 
-   * Rank the importance of variables to see what are the best environmental predictors of happiness
+   * Rank the importance of variables to determine top predictors of crop yield
 
 3. Visualization:
 
-   * Plots depicting significant reletionships
-   * Map of happiness scores, with notations for significant environmental factors (interactive??)
+   * Correlation heatmap
+   * Model performance
+   * Rank of important variables
 
 ## Insights
 
-This research project will provide insights on which environmental factors or conditions that may be important for happiness, regardless of the mechanisms. Through these analyses we might discover which environmental catagories weigh more heavily on happiness. Aside from likely being related, pinpointing these variables in relation to each other may shed light on what to explore on a finer scale. Further, these findings could be useful in future work to advocate for improving environmental conditions through policy and land management. 
+This research project will provide insights on which environmental factors may be most important for crop production. Given pressures of future climate change, highlighting the importance of environemtal factors on global crop production could be useful in mitigating concerns over the future global food supply. 
 
 
 
-
-
-
-*PS. I am still interested in working on a project that involves optimizing the program/services for a youth homelessness center or determining what the barriers might be for access to such a resource, but I got overwhelmed in the data search and wanted to make the assignment deadline, so I will continue to explore that avenuee
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cmiller504/csx4501_project/HEAD)

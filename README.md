@@ -42,3 +42,6 @@ This dataset has over 28,000 records for the following variables: crop yield (hg
 
 This research project will provide insights on which environmental factors may be most important for crop production. Given pressures of future climate change, highlighting the importance of environemtal factors on global crop production could be useful in mitigating concerns over the future global food supply. 
 
+
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cmiller504/csx4501_project/HEAD)
